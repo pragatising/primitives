@@ -318,7 +318,7 @@
           },
         },
         active: {
-          $value: '#197935',
+          $value: '{base.color.indigo.7}',
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
@@ -370,7 +370,7 @@
           },
         },
         disabled: {
-          $value: '#95d8a6',
+          $value: '{base.color.indigo.2}',
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
@@ -380,10 +380,10 @@
             },
             'org.primer.overrides': {
               dark: {
-                $value: '#105823',
+                $value: '#25272f',
               },
               'dark-dimmed': {
-                $value: '#105823',
+                $value: '#282d37',
               },
               'dark-tritanopia': {
                 $value: '#5fabfe',
@@ -431,11 +431,11 @@
             },
             'org.primer.overrides': {
               'dark-high-contrast': {
-                $value: '{base.color.green.2}',
+                $value: '{base.color.indigo.2}',
                 alpha: 1,
               },
               'dark-dimmed-high-contrast': {
-                $value: '{base.color.green.2}',
+                $value: '{base.color.indigo.2}',
                 alpha: 1,
               },
               'dark-protanopia-deuteranopia-high-contrast': {
