@@ -247,7 +247,7 @@
       },
       bgColor: {
         rest: {
-          $value: '{bgColor.success.emphasis}',
+          $value: '{bgColor.accent.emphasis}',
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
@@ -257,16 +257,16 @@
             },
             'org.primer.overrides': {
               dark: {
-                $value: '{bgColor.success.emphasis}',
+                $value: '{bgColor.accent.emphasis}',
               },
               'light-high-contrast': {
-                $value: '{base.color.green.5}',
+                $value: '{base.color.indigo.5}',
               },
             },
           },
         },
         hover: {
-          $value: '#1c8139',
+          $value: '{base.color.indigo.7}',
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
@@ -276,13 +276,13 @@
             },
             'org.primer.overrides': {
               dark: {
-                $value: '#29903B',
+                $value: '{base.color.indigo.7}',
               },
               'dark-dimmed': {
-                $value: '#3b8640',
+                $value: '{base.color.indigo.7}',
               },
               'dark-dimmed-high-contrast': {
-                $value: '{base.color.green.6}',
+                $value: '{base.color.indigo.6}',
               },
               'dark-tritanopia': {
                 $value: '#2a7aef',

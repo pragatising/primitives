@@ -272,7 +272,7 @@
     },
     accent: {
       muted: {
-        $value: '{base.color.blue.0}',
+        $value: '{base.color.indigo.0}',
         $type: 'color',
         $description: 'Subtle accent background for informational or selected elements',
         $extensions: {
@@ -286,7 +286,7 @@
           },
           'org.primer.overrides': {
             dark: {
-              $value: '{base.color.blue.4}',
+              $value: '{base.color.indigo.4}',
               alpha: 0.1,
             },
           },
@@ -297,7 +297,7 @@
         },
       },
       emphasis: {
-        $value: '{base.color.blue.5}',
+        $value: '{base.color.indigo.6}',
         $type: 'color',
         $description: 'Strong accent background for active states and focused states',
         $extensions: {
@@ -310,11 +310,11 @@
             },
           },
           'org.primer.overrides': {
-            dark: '{base.color.blue.5}',
-            'dark-high-contrast': '{base.color.blue.9}',
-            'dark-dimmed-high-contrast': '{base.color.blue.7}',
-            'dark-tritanopia-high-contrast': '{base.color.blue.9}',
-            'dark-protanopia-deuteranopia-high-contrast': '{base.color.blue.9}',
+            dark: '{base.color.indigo.5}',
+            'dark-high-contrast': '{base.color.indigo.9}',
+            'dark-dimmed-high-contrast': '{base.color.indigo.7}',
+            'dark-tritanopia-high-contrast': '{base.color.indigo.9}',
+            'dark-protanopia-deuteranopia-high-contrast': '{base.color.indigo.9}',
           },
           'org.primer.llm': {
             usage: ['active-states', 'current', 'selected', 'active-toggle'],
